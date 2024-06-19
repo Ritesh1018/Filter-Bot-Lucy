@@ -1,4 +1,4 @@
-from info import
+from info import*
 import os , glob
 from os import error
 import logging
