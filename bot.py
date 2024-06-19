@@ -6,6 +6,9 @@ from pathlib import Path
 from pyrogram import idle
 import logging
 import logging.config
+import pyrogram.utils
+
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
